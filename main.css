@@ -1,0 +1,531 @@
+
+body{
+    margin: 0;
+}
+/*
+.accueil{
+    background-image: url("img/maintenancier.jpg");
+}*/
+@media screen and (max-width:1280px) {
+   
+   #en-tête{
+       width: auto; 
+   }
+    
+}
+@media screen and (max-width: 100%) {
+    #en-tête{
+        width: 400px;
+    }
+}
+
+.image_page{
+    margin: auto;
+    /* position: absolute; */
+    width: 100%;
+}
+
+header{
+    background-image: url('img/maintenancier.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+h2{
+    font-size: 50px;
+    text-transform:uppercase;
+    text-decoration: underline;
+}
+
+.grand_title p{
+    position: relative;
+    background-color: rgba(248, 245, 245, 0.7);
+    width: 997px;
+    height: 90vh;
+    text-align: center;
+    padding-top: 80px;
+    top: 37px;
+    left: 568px;
+    margin-left: 30%;
+    font-size: 62px;
+}
+
+.red{
+    color: #FB291F;
+}
+
+.innovation{
+    margin-top: 50px;
+}
+
+ #en-tête{
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     position: fixed;
+     background-color:  white;
+     margin-top: -65px;
+     width: 100vw;
+
+ }
+
+ nav{
+      margin: auto;
+      word-spacing: 4px;
+      margin-right: 200px;
+      font-size: 25px;
+      border: 4px;
+    }
+
+ a{
+     color: black;
+     text-decoration: none;
+     padding: 20px;
+ }
+
+ .logo{
+     margin-left: 200px;
+     margin-top: 15px;
+ }
+
+ .title_section1{
+     text-align: center;
+     margin-top: 60px;
+ }
+
+ .our_services{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 10%;
+ }
+
+ .devices{
+     background-color: white;
+    
+ }
+ .services1{
+     background-color: dodgerblue;
+     
+ }
+
+ .services2{
+    background-color: dodgerblue;
+   
+}
+
+.services_parc{
+    background-color: dodgerblue;
+}
+
+ .services1_parc{
+    background-color: dodgerblue;
+    margin-right: 10%;
+    color: white;
+ }
+ 
+ .services1_parc p{
+     margin-left: 20%;
+ }
+ .services1 p, .services2, .services_parc{
+   font-size: 40px;
+     color: white;
+    text-align: center;
+ }
+
+ .section2{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 15%;
+     margin-right: 20%;
+     margin-top: 10%;
+ }
+
+ .title_section2{
+     justify-content: space-between;
+ }
+
+ .title_section2 p{
+     font-size: 45px;
+     text-align: justify;
+     text-justify: inter-word;
+ }
+
+ .image_depannage{
+     margin: 100px 0 0 200px;
+ }
+ h3{
+color:  dodgerblue;
+text-decoration: underline;
+font-size: 45px;
+ }
+
+ .section3{
+     display: flex;
+     justify-content: space-around;
+     margin-right: 5%;
+     margin-left: 15%;
+ }
+
+ .title_installation {
+    margin-left: 100px;
+ }
+
+ .title_installation p{
+     font-size: 45px;
+     text-align: justify;
+     text-justify: inter-word;
+ }
+
+ .logo_reseau{
+     margin-top: 200px;
+ }
+
+ .section4{
+     display: flex;
+     justify-content: space-around;
+     margin-right: 10%;
+     margin-left: 10%;
+ }
+
+ .title_gestion_globale h2{
+      color: dodgerblue;
+      text-decoration: underline;
+ }
+
+ .title_gestion_globale p{
+     font-size: 45px;
+     text-align: justify;
+     text-justify: inter-word;
+ }
+
+ .conseil-informatique-picto2{
+     margin: 200px 0 0 100px;
+ }
+
+ #title_temoignage, #contact h2{
+    text-align: center;
+ }
+ .temoignage{
+     background-color: #C4C4C4;
+     width: 300px;
+     height: 205px;
+     border-radius: 20px;
+ }
+ .temoin1{
+     background-color: #D6E6DA;
+     width: 300px;
+     height: 200px;
+     border-radius: 20px;
+ }
+
+ .temoin1 p{
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+ .vincent{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .vincent_DG P{
+    margin-right: 170px;
+ }
+ .homme_heureur{
+     margin-top: 20px;
+     margin-left: 20px;
+ }
+ 
+ .temoignage_bloc1{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 5%;
+ }
+
+ .temoignage_bloc{
+     padding-left: 10%;
+     padding-right: 10%;
+ }
+
+.btn-1{
+    background-color: #1565D4;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #1565D4;
+    margin-left: 45%;
+    margin-top: 2%;  
+ } 
+
+ .btn-2{
+    background-color: #1565D4;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #1565D4;
+    margin-left: 40%;
+    margin-top: 4%;
+ }
+ 
+
+ button p{
+    font-size: 25px;
+    color: white;
+    margin-top: 4%;
+ }
+
+ .image_blue{
+     background-image: url( "image_fond_bleu.png" );
+     width: 100%;
+     height: 500px;
+     background-size: cover;
+     justify-content: space-around;
+ }
+
+ .our_contacts{
+     background-color: white;
+     width: 25%;
+     height: 350px;
+     border-radius: 20px;
+     margin-top: 30px;
+     margin-left: 10%;
+     padding-top: 50px;
+     padding-left: 30px;
+ }
+
+ .whatsapp{
+     display: flex;
+ }
+
+ .contact_first_line{
+     display: flex;
+     padding-right: 12px;
+ }
+ .image_blue{
+     display: flex;
+     justify-content: space-between;
+ }
+ form{
+     margin-right: 30px;
+     margin-top: 70px;
+     padding-top: 30px;
+ }
+ input{
+     border: none;
+     outline: none;
+     border-bottom: 1px solid black;
+     background: none;
+     margin-right: 8px;
+ }
+
+ #partenaires{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 20%;
+     margin-right: 20%;
+     margin-top: 10%;
+ }
+
+ .logo_partenaires h2{
+    margin-left: 46%;
+    margin-top: 5%;
+ }
+
+ .localisation{
+     margin-top: 5%;
+ }
+ iframe{
+     width: 100%;
+     height: 500px;
+ }
+
+ footer{
+     background-color: black;
+     width: 100%;
+     height: 350px;
+     
+ }
+
+ #reseaux_sociaux{
+     display: flex;
+     width: 100%;
+     height: 0%;
+     justify-content: space-around;
+ }
+ .reseau3{
+   padding: 10%;
+ }
+
+.reseau3 p{
+     color: white;
+     width: 100px;
+     justify-content: space-between;
+}
+
+.tous_reseaux{
+    display: flex;
+}
+
+hr{
+    margin: 0% 10% 0% 10%;
+    height: 350px;
+}
+.copyrigth{
+    display: flex;
+    background-color: #C4C4C4;
+    width: 47px;
+    height: 46px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 200px;
+    margin-left: 14%;
+}
+
+.copyrigth p{
+    color: white;
+    width: 200px;
+    margin-left: 10px;
+}
+.footer_right p{
+    color: white;
+    font-size: 25px;
+}
+
+
+.bottom_contact{
+     display: flex;
+     margin-right: 20px;
+}
+
+@media screen and (max-width: 980px) {
+     
+    .services1_parc{
+        width: 340px;
+        margin-left: 40px;
+    }
+
+    .img_parc{
+        width: 340px;
+    }
+
+    .temoignage{
+        /*width: 256px;*/
+        margin-left: 10px;
+    }
+
+    .temoignage_bloc1{
+        flex-wrap: wrap;
+    }
+    .temoignage_bloc{
+        flex-wrap: wrap;
+    }
+
+    .temoin1{
+        width: 240px;
+    }
+
+    .image_blue{
+        background-image: url( "image_fond_bleu.png" );
+        width: auto;
+        height: 100vh;   
+    }
+
+    input{
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        background: none;
+        margin-right: 8px;
+        width: 30px;
+    }
+
+    .our_contacts{
+        background-color: white;
+        width: 25%;
+        height: 350px;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-left: 10%;
+        padding-top: 5px;
+        padding-left: 30px;
+    }
+
+    button{
+        background-color: #1565D4;
+        width: 130px;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-top: 4%;
+    }
+
+    #partenaires{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0%;
+        margin-right: 20%;
+        margin-top: 10%;
+    }
+ }
+ @media all and (max-width: 1307px) {
+     header{
+        background-image: url('img/maintenancier.jpg') ;
+        width: 75%;
+        height: 50vh;
+        background-size: cover;
+     }
+     .grand_title p{
+        position: relative;
+        background-color: rgba(248, 245, 245, 0.7);
+        width: 498px;
+        height: 45vh;
+        text-align: center;
+        padding-top: 40px;
+        top: 37px;
+        left: 50px;
+        font-size: 20px;
+    }
+    
+    .title_section1{
+        font-size: 25px;
+    }
+    .our_services{
+        flex-wrap: wrap;
+    }
+    .services_parc{
+        font-size: 20px
+    }
+    .services2, .services_parc{
+          margin-top: 15px;
+      }
+      
+      a{
+          font-size: 10px;
+          padding: 5px;
+      }
+    
+ }
+ @media all and (max-width: 1037px) {
+    header{
+       background-image: url('img/maintenancier.jpg') ;
+       width: 50%;
+       height: 25vh;
+       background-size: cover;
+    }
+    .grand_title p{
+       position: relative;
+       background-color: rgba(248, 245, 245, 0.7);
+       width: 249px;
+       height: 18vh;
+       text-align: center;
+       padding-top: 40px;
+       top: 37px;
+       left: 25px;
+       font-size: 20px;
+   }
+
+   a{
+    padding: 5px;
+}
+}
