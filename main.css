@@ -236,7 +236,8 @@ font-size: 45px;
     border-radius: 20px;
     border: 1px solid #1565D4;
     margin-left: 45%;
-    margin-top: 2%;  
+    margin-top: 2%; 
+
  } 
 
  .btn-2{
@@ -251,10 +252,11 @@ font-size: 45px;
  }
  
 
- button p{
+ .btn-1 h4, .btn-2 h4{
     font-size: 25px;
     color: white;
     margin-top: 4%;
+    filter: contrast(100%);
  }
 
  .image_blue{
