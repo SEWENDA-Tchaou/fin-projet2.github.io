@@ -2,35 +2,12 @@ cd tra
 body{
     margin: 0;
 }
-/*
-.accueil{
-    background-image: url("img/maintenancier.jpg");
-}*/
-@media screen and (max-width:1280px) {
-   
-   #en-tête{
-       width: auto; 
-   }
-    
-}
-@media screen and (max-width: 100%) {
-    #en-tête{
-        width: 400px;
-    }
-}
-
-.image_page{
-    margin: auto;
-    /* position: absolute; */
-    width: 100%;
-}
 
 header{
     background-image: url('img/maintenancier.jpg');
     height: 100vh;
     width: 100%;
     background-size: cover;
-    
 }
 
 h2{
