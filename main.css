@@ -20,10 +20,10 @@ h2{
     position: relative;
     background-color: rgba(248, 245, 245, 0.7);
     width: 997px;
-    height: 90vh;
+    height: 74vh;
     text-align: center;
     padding-top: 80px;
-    top: 37px;
+    top: 146px;
     left: 568px;
     margin-left: 30%;
     font-size: 62px;
@@ -52,7 +52,7 @@ h2{
       margin: auto;
       word-spacing: 4px;
       margin-right: 200px;
-      margin-top: 30px;
+      margin-top: 70px;
       font-size: 25px;
       border: 4px;
     }
