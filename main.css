@@ -70,7 +70,7 @@ a:hover{
 
  .logo{
      margin-left: 200px;
-     margin-top: 64px;
+     margin-top: 64px !important;
  }
 
  .title_section1{
